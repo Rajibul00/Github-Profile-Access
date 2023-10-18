@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat:wght@500&family=Dancing+Script:wght@500;700&family=Gilda+Display&family=Luckiest+Guy&family=Oswald:wght@700&family=Poppins:ital,wght@0,400;1,500&family=Prompt:wght@700&family=Roboto:ital@1&family=Solitreo&family=Young+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Young Serif', serif;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+input{
+    width: 30rem;
+    border: none;
+    outline: none;
+    box-shadow: 0em 0rem .5rem .5rem  rgb(175, 1, 255);
+    padding:.1rem  .3rem;
+    font-size: 1.3rem;
+}
+h1{
+    color: blueviolet;
+}
+button{
+    background-color: blueviolet;
+    color: #ffffff;
+    cursor: pointer;
+margin-left: .5rem;
+    padding: .3rem;
+    outline: none;
+    font-size: 1.3rem;
+
+
+}
+
+.userdiscription{
+height: 23rem;
+
+width: 57rem;
+border-radius: 1.5rem;
+box-shadow: 0em 0rem .5rem .5rem  rgb(175, 1, 255);
+padding: 2rem 1rem;
+display: flex;
+flex-direction: column;
+gap: 2rem;
+
+}
+.image{
+    height: 7rem;
+    width: 7rem;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+   
+}
+.userdiscriptionheading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.leftsection{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+.name,.about,.text{
+    font-size: 1.5rem;
+}
+.ID,.no{
+font-size: 1.3rem;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.Bio{
+    font-size: 1.1rem;
+    }
+    .social{
+        display: flex;
+        justify-content: space-between;
+    }
+    .text{
+        font-size: 1.5rem;
+    }
+    .userexistornot{
+        display: none;
+        color: red;
+        position: absolute;
+        top: 50%;
+    }
+    @media screen and  (max-width:600px){
+    html{
+      font-size: 55%;
+    }
+    .userdiscription{
+        height: 25rem;
+        
+       width: 90%;
+    }
+    input{
+        width: 40rem;
+    }
+}
+@media screen and  (max-width:450px){
+    html{
+      font-size: 50%;
+    }
+    .userdiscription{
+        height: 22rem;
+       width: 40rem;
+    }
+    input{
+        width: 30rem;
+    }
+   
+}
+@media screen and  (max-width:370px){
+    html{
+      font-size: 40%;
+    }
+    .userdiscription{
+        height: 23rem;
+       width: 40rem;
+    }
+    input{
+        width: 30rem;
+    }
+   
+}
